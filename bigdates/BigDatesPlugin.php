@@ -28,11 +28,14 @@ class BigDatesPlugin extends BasePlugin
 
 	public function getEntryTableAttributeHtml(BaseElementModel $element, $attribute)
 	{
-		$value = $element->$attribute;
-
-		if ($value instanceof DateTime)
+		if (isset($element->$attribute))
 		{
-			return $value->localeDate().' '.$value->localeTime();
+			$value = $element->$attribute;
+
+			if ($value instanceof DateTime)
+			{
+				return $value->localeDate().' '.$value->localeTime();
+			}
 		}
 
 		return null;
