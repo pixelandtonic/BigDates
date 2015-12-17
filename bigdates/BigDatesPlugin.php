@@ -13,7 +13,12 @@ class BigDatesPlugin extends BasePlugin
 
 	public function getVersion()
 	{
-	    return '1.1';
+	    return '1.1.0';
+	}
+
+	public function getSchemaVersion()
+	{
+		return '1.0.0';
 	}
 
 	public function getDeveloper()
@@ -24,6 +29,11 @@ class BigDatesPlugin extends BasePlugin
 	public function getDeveloperUrl()
 	{
 	    return 'http://pixelandtonic.com';
+	}
+
+	public function getReleaseFeedUrl()
+	{
+		return 'https://raw.githubusercontent.com/pixelandtonic/BigDates/master/releases.json';
 	}
 
 	public function getEntryTableAttributeHtml(BaseElementModel $element, $attribute)

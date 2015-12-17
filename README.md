@@ -5,3 +5,14 @@ This plugin gets Craft to show full timestamps for all Post and Expiry dates on 
 ## Installation
 
 To install BigDates, copy the bigdates/ folder into craft/plugins/, and then go to Settings > Plugins and click the “Install” button next to “Big Dates”.
+
+## Changelog
+
+### 1.1.0
+
+* Added support for update notifications in Craft 2.5.
+* Fixed a PHP error that occurred when running Big Dates on Craft 2.5.
+
+### 1.0.0
+
+* Initial release
