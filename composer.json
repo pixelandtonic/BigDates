@@ -1,0 +1,47 @@
+{
+  "name": "craftcms/big-dates",
+  "description": "This plugin gets Craft to show full timestamps for all Post and Expiry dates on Entry indexes in Craft CMS.",
+  "version": "2.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "big",
+    "dates",
+    "cms",
+    "craftcms",
+    "yii2"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pixel & Tonic",
+      "homepage": "https://pixelandtonic.com/"
+    }
+  ],
+  "support": {
+    "email": "support@craftcms.com",
+    "issues": "https://github.com/craftcms/big-dates/issues?state=open",
+    "source": "https://github.com/craftcms/big-dates",
+    "docs": "https://github.com/craftcms/big-dates",
+    "rss": "https://github.com/craftcms/big-dates/commits/v2.atom"
+  },
+  "require": {
+    "craftcms/cms": "~3.0.0-beta.26"
+  },
+  "autoload": {
+    "psr-4": {
+      "craft\\bigdates\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "extra": {
+    "name": "Big Dates",
+    "handle": "big-dates",
+    "changelogUrl": "https://raw.githubusercontent.com/craftcms/big-dates/v2/CHANGELOG.md",
+    "downloadUrl": "https://github.com/craftcms/big-dates/archive/v2.zip"
+  }
+}
