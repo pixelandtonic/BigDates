@@ -8,6 +8,10 @@ To install BigDates, copy the bigdates/ folder into craft/plugins/, and then go 
 
 ## Changelog
 
+### 2.0.0
+
+* Updated for Craft 3
+
 ### 1.1.1
 * Implemented Craft 2.5's `getPluginUrl` and `getDocumentationUrl` methods.
 
